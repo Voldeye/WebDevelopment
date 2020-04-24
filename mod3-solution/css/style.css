@@ -1,0 +1,42 @@
+body{
+	font-size:16px;
+	background-color: #C0C0C0;
+}
+/*********************************** Header *********************************/
+#header-nav{
+	background-color:#25383C;
+	border-radius: 0;
+	border:0; 
+}
+#header-nav h1{
+	margin:-10px;
+	margin-left: -10px;
+	color: #808000;
+	text-shadow: 1px 1px 1px #222;
+}
+#nav-list a:hover{
+	background-color:magenta;
+}
+#nav-list a{
+	text-align: center;
+	border:1px solid #808000;
+}
+#nav-list a span{
+	color:#E7E7E7;
+}
+/********************** Header end here*********************************/
+
+/************************** Main content************************/
+
+#main-content{
+	margin:20px 10px 20px 10px;
+	height:1000px;
+	border:1px solid black;
+	background-color:#98AFC7; 
+	overflow:hidden;
+}
+#main-content p{
+	padding:5px 20px 5px 20px;
+	text-align: justify;
+	font-family: Helvetica;
+}
